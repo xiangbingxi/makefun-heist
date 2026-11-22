@@ -1,0 +1,30 @@
+/* Page furniture for THE VELVET VAULT. The game itself is drawn on canvas. */
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #0a0c13;
+  color: #e9edf6;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+main { max-width: 1300px; margin: 0 auto; padding: 18px 12px 40px; }
+h1 {
+  margin: 0;
+  font-size: 34px;
+  letter-spacing: 6px;
+  color: #ffd34d;
+}
+.tag { margin: 4px 0 14px; color: #9aa5bd; font-style: italic; }
+canvas {
+  display: block;
+  width: 1280px;
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #2c3145;
+  border-radius: 6px;
+  background: #171a26;
+  cursor: crosshair;
+}
+.help { margin-top: 16px; }
+.help h2 { font-size: 18px; color: #ffd34d; margin: 0 0 6px; }
+.help ul { margin: 0; padding-left: 20px; line-height: 1.7; color: #c6cede; }
+.help b { color: #ffe9a8; }

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THE VELVET VAULT — a one-night heist</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>THE VELVET VAULT</h1>
+  <p class="tag">One thief. Three rooms. One night to take it all.</p>
+  <canvas id="game" width="1280" height="720"></canvas>
+  <section class="help">
+    <h2>How to play</h2>
+    <ul>
+      <li><b>WASD / arrows</b> — move the thief. <b>Shift</b> — sneak (slower, harder to spot).</li>
+      <li><b>E (hold)</b> — crack the big target, or hack the camera panel to kill the cameras for 12 seconds.</li>
+      <li><b>Q or click</b> — toss a coin where the mouse points; the nearest guard goes to look at it.</li>
+      <li><b>F</b> — drop a smoke pellet at your feet. No eye or camera sees through smoke.</li>
+      <li>Red cones are guard and camera sight. Blue floor is shadow — hide in it. Gold is loot.</li>
+      <li>Take the big target, then reach the green exit. If the alarm meter fills, you are caught.</li>
+      <li><b>P</b> pause · <b>M</b> sound · <b>R</b> retry the room · <b>Enter</b> start / next room</li>
+    </ul>
+  </section>
+</main>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
